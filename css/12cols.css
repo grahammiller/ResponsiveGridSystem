@@ -52,39 +52,17 @@
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
 @media only screen and (max-width: 480px) {
-	.span_12_of_12 {
-		width: 100%; 
-	}
-	.span_11_of_12 {
-		width: 100%; 
-	}
-	.span_10_of_12 {
-		width: 100%; 
-	}
-	.span_9_of_12 {
-		width: 100%; 
-	}
-	.span_8_of_12 {
-		width: 100%; 
-	}
-	.span_7_of_12 {
-		width: 100%; 
-	}
-	.span_6_of_12 {
-		width: 100%; 
-	}
-	.span_5_of_12 {
-		width: 100%; 
-	}
-	.span_4_of_12 {
-		width: 100%; 
-	}
-	.span_3_of_12 {
-		width: 100%; 
-	}
-	.span_2_of_12 {
-		width: 100%; 
-	}
+	.span_12_of_12,
+	.span_11_of_12,
+	.span_10_of_12,
+	.span_9_of_12,
+	.span_8_of_12,
+	.span_7_of_12,
+	.span_6_of_12,
+	.span_5_of_12,
+	.span_4_of_12,
+	.span_3_of_12,
+	.span_2_of_12,
 	.span_1_of_12 {
 		width: 100%; 
 	}
