@@ -1,16 +1,28 @@
 /*  GRID OF THREE   ============================================================================= */
 
-	
+
 .span_3_of_3 {
-	width: 100%; 
+	width: 100%;
 }
 
 .span_2_of_3 {
-	width: 66.1%; 
+	width: 66.1%;
 }
 
 .span_1_of_3 {
-	width: 32.2%; 
+	width: 32.2%;
+}
+
+.col.offset_3_of_3 {
+	margin-left: 100%;
+}
+
+.col.offset_2_of_3 {
+	margin-left: 66.7%; /* 1.06% + 66.1% */
+}
+
+.col.offset_1_of_3 {
+	margin-left: 33.26%; /* 1.06% + 32.2% */
 }
 
 
@@ -18,12 +30,18 @@
 
 @media only screen and (max-width: 480px) {
 	.span_3_of_3 {
-		width: 100%; 
+		width: 100%;
 	}
 	.span_2_of_3 {
-		width: 100%; 
+		width: 100%;
 	}
 	.span_1_of_3 {
 		width: 100%;
+	}
+
+	.col.offset_3_of_3,
+	.col.offset_2_of_3,
+	.col.offset_1_of_3 {
+		margin: 1% 0 1% 0;
 	}
 }

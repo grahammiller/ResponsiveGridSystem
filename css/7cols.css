@@ -29,29 +29,67 @@
   	width: 12.91%;
 }
 
+.col.offset_7_of_7 {
+	margin-left: 100%;
+}
+
+.col.offset_6_of_7 {
+	margin-left: 86.54%; /* 1.06% + 85.48% */
+}
+
+.col.offset_5_of_7 {
+  	margin-left: 72.03%; /* 1.06% + 70.97% */
+}
+
+.col.offset_4_of_7 {
+  	margin-left: 57.51%; /* 1.06% + 56.45% */
+}
+
+.col.offset_3_of_7 {
+  	margin-left: 42.98%; /* 1.06% + 41.92% */
+}
+
+.col.offset_2_of_7 {
+  	margin-left: 28.48%; /* 1.06% + 27.42% */
+}
+
+.col.offset_1_of_7 {
+  	margin-left: 13.97%; /* 1.06% + 12.91% */
+}
+
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
 @media only screen and (max-width: 480px) {
 	.span_7_of_7 {
-		width: 100%; 
+		width: 100%;
 	}
 	.span_6_of_7 {
-		width: 100%; 
+		width: 100%;
 	}
 	.span_5_of_7 {
-		width: 100%; 
+		width: 100%;
 	}
 	.span_4_of_7 {
-		width: 100%; 
+		width: 100%;
 	}
 	.span_3_of_7 {
-		width: 100%; 
+		width: 100%;
 	}
 	.span_2_of_7 {
-		width: 100%; 
+		width: 100%;
 	}
 	.span_1_of_7 {
-		width: 100%; 
+		width: 100%;
+	}
+
+	.col.offset_7_of_7,
+	.col.offset_6_of_7,
+	.col.offset_5_of_7,
+	.col.offset_4_of_7,
+	.col.offset_3_of_7,
+	.col.offset_2_of_7,
+	.col.offset_1_of_7 {
+		margin: 1% 0 1% 0;
 	}
 }

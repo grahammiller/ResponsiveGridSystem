@@ -1,20 +1,36 @@
 /*  GRID OF FOUR   ============================================================================= */
 
-	
+
 .span_4_of_4 {
-	width: 100%; 
+	width: 100%;
 }
 
 .span_3_of_4 {
-	width: 74.6%; 
+	width: 74.6%;
 }
 
 .span_2_of_4 {
-	width: 49.2%; 
+	width: 49.2%;
 }
 
 .span_1_of_4 {
-	width: 23.8%; 
+	width: 23.8%;
+}
+
+.col.offset_4_of_4 {
+	margin-left: 100%;
+}
+
+.col.offset_3_of_4 {
+	margin-left: 75.66%; /* 1.06% + 74.6% */
+}
+
+.col.offset_2_of_4 {
+	margin-left: 50.26%; /* 1.06% + 49.2% */
+}
+
+.col.offset_1_of_4 {
+	margin-left: 24.86%; /* 1.06% + 23.8% */
 }
 
 
@@ -22,15 +38,22 @@
 
 @media only screen and (max-width: 480px) {
 	.span_4_of_4 {
-		width: 100%; 
+		width: 100%;
 	}
 	.span_3_of_4 {
-		width: 100%; 
+		width: 100%;
 	}
 	.span_2_of_4 {
-		width: 100%; 
+		width: 100%;
 	}
 	.span_1_of_4 {
-		width: 100%; 
+		width: 100%;
+	}
+
+	.col.offset_4_of_4,
+	.col.offset_3_of_4,
+	.col.offset_2_of_4,
+	.col.offset_1_of_4 {
+		margin: 1% 0 1% 0;
 	}
 }
