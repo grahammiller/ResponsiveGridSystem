@@ -17,19 +17,19 @@
 }
 
 .span_7_of_11 {
-	width: 63.01%; 
+	width: 63.01%;
 }
 
 .span_6_of_11 {
-	width: 53.78%; 
+	width: 53.78%;
 }
 
 .span_5_of_11 {
-	width: 44.55%; 
+	width: 44.55%;
 }
 
 .span_4_of_11 {
-	width: 35.32%; 
+	width: 35.32%;
 }
 
 .span_3_of_11 {
@@ -37,11 +37,55 @@
 }
 
 .span_2_of_11 {
-	width: 16.86%; 
+	width: 16.86%;
 }
 
 .span_1_of_11 {
-	width: 7.63%; 
+	width: 7.63%;
+}
+
+.col.offset_11_of_11 {
+	margin-left: 100%
+}
+
+.col.offset_10_of_11 {
+	margin-left: 91.76%; /* 1.06% +  90.7% */
+}
+
+.col.offset_9_of_11 {
+	margin-left: 82.53%; /* 1.06% +  81.47% */
+}
+
+.col.offset_8_of_11 {
+	margin-left: 73.3%; /* 1.06% +  72.24% */
+}
+
+.col.offset_7_of_11 {
+	margin-left: 64.07%; /* 1.06% +  63.01% */
+}
+
+.col.offset_6_of_11 {
+	margin-left: 54.84%; /* 1.06% +  53.78% */
+}
+
+.col.offset_5_of_11 {
+	margin-left: 45.61; /* 1.06% +  44.55% */
+}
+
+.col.offset_4_of_11 {
+	margin-left: 36.38%; /* 1.06% +  35.32% */
+}
+
+.col.offset_3_of_11 {
+	margin-left: 27.15%; /* 1.06% +  26.09% */
+}
+
+.col.offset_2_of_11 {
+	margin-left: 17.92%; /* 1.06% +  16.86% */
+}
+
+.col.offset_1_of_11 {
+	margin-left: 8.69%; /* 1.06% +  7.63% */
 }
 
 
@@ -49,36 +93,50 @@
 
 @media only screen and (max-width: 480px) {
 	.span_11_of_11 {
-		width: 100%; 
+		width: 100%;
 	}
 	.span_10_of_11 {
-		width: 100%; 
+		width: 100%;
 	}
 	.span_9_of_11 {
-		width: 100%; 
+		width: 100%;
 	}
 	.span_8_of_11 {
-		width: 100%; 
+		width: 100%;
 	}
 	.span_7_of_11 {
-		width: 100%; 
+		width: 100%;
 	}
 	.span_6_of_11 {
-		width: 100%; 
+		width: 100%;
 	}
 	.span_5_of_11 {
-		width: 100%; 
+		width: 100%;
 	}
 	.span_4_of_11 {
-		width: 100%; 
+		width: 100%;
 	}
 	.span_3_of_11 {
-		width: 100%; 
+		width: 100%;
 	}
 	.span_2_of_11 {
-		width: 100%; 
+		width: 100%;
 	}
 	.span_1_of_11 {
-		width: 100%; 
+		width: 100%;
+	}
+
+	.col.offset_11_of_11,
+	.col.offset_10_of_11,
+	.col.offset_9_of_11,
+	.col.offset_8_of_11,
+	.col.offset_7_of_11,
+	.col.offset_6_of_11,
+	.col.offset_5_of_11,
+	.col.offset_4_of_11,
+	.col.offset_3_of_11,
+	.col.offset_2_of_11,
+	.col.offset_1_of_11 {
+		margin: 1% 0 1% 0;
 	}
 }

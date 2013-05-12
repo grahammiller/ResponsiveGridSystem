@@ -12,7 +12,7 @@
 /*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 480 PIXELS */
 
 @media only screen and (max-width: 480px) {
-	.col { 
-		margin: 1% 0 1% 0%;
+	.col {
+		margin: 1% 0 1% 0;
 	}
 }
