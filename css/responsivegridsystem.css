@@ -382,7 +382,7 @@ input[type="button"],
 input[type="reset"], 
 input[type="submit"] { 
 padding: 0.5em 1em;
-margin: 0 0 1em; 0;
+margin: 0 0 1em 0;
 cursor : pointer; 
 text-shadow:0 1px 0 #fff;
 }
