@@ -1,4 +1,28 @@
-/*  GRID COLUMN SETUP   ============================================================================= */
+
+/*  SECTIONS  ============================================================================= */
+
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  GROUPING  ============================================================================= */
+
+
+.group:before,
+.group:after {
+    content:"";
+    display:table;
+}
+.group:after {
+    clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+/*  GRID COLUMN SETUP   ==================================================================== */
 
 .col {
 	display: block;
