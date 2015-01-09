@@ -33,24 +33,12 @@
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
 @media only screen and (max-width: 480px) {
-	.span_7_of_7 {
-		width: 100%; 
-	}
-	.span_6_of_7 {
-		width: 100%; 
-	}
-	.span_5_of_7 {
-		width: 100%; 
-	}
-	.span_4_of_7 {
-		width: 100%; 
-	}
-	.span_3_of_7 {
-		width: 100%; 
-	}
-	.span_2_of_7 {
-		width: 100%; 
-	}
+	.span_7_of_7,
+	.span_6_of_7,
+	.span_5_of_7,
+	.span_4_of_7,
+	.span_3_of_7,
+	.span_2_of_7,
 	.span_1_of_7 {
 		width: 100%; 
 	}
